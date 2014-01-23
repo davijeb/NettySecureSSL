@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.jboss.netty:netty:3.2.0.Final@jar'
+}
